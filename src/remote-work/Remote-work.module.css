@@ -1,0 +1,19 @@
+.workBlock {
+    height: 15vh;
+    background-color: #758d48;
+}
+
+.workContainer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title {
+    background-color: aqua;
+}
+
+.button{
+    height: 25%;
+    width: 30%;
+    font-size: 25px;
+}
