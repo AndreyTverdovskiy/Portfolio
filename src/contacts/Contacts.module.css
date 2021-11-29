@@ -1,21 +1,23 @@
 .contactsBlock{
-    height: 350px;
     background-color: #68587c;
 }
 .contactsContainer {
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .contactsForm {
     width: 50%;
-    height: 30%;
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.contactsForm input, .contactsForm textarea{
+    width: 80%;
 }
 
 .button{
-    justify-content: flex-end;
+    padding: 10px 20px;
 }

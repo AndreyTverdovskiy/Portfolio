@@ -9,7 +9,7 @@ function Projects() {
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <h2 className={s.title}>My projects</h2>
                 <div className={s.projects}>
-                    <Project title={'To do list'}
+                    <Project title={'TodoList'}
                            description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur distinctio eligendi eveniet'}/>
                     <Project title={'Counter'}
                            description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur distinctio eligendi eveniet'}/>

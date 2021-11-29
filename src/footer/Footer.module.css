@@ -1,22 +1,19 @@
 .footerBlock {
-    height: 180px;
     background-color: #7cdfff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
 }
 
 .footerContainer{
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
 }
 
-.footer {
+.icons {
     border: 1px solid;
-    width: 37%;
+    width: 250px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 

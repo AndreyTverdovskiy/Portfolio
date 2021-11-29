@@ -1,5 +1,4 @@
 .projectsBlock {
-    height: 100vh;
     background-color: #2a8c7a;
 }
 
@@ -22,8 +21,15 @@
 }
 
 @media (max-width: 624px) {
-    .projectsContainer{
+    .projectsContainer {
         flex-direction: row;
         align-items: center;
     }
+}
+
+@media screen and (max-width: 937px) {
+    .projects {
+        justify-content: center;
+    }
+
 }

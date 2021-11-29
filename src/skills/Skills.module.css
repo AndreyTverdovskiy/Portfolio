@@ -1,6 +1,7 @@
 .skillsBlock {
     height: 100vh;
     background-color: #88b467;
+    flex-wrap: wrap;
 }
 
 .skillsContainer {
@@ -21,9 +22,13 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 600px) {
-    .skillsContainer{
+@media (max-width: 624px) {
+    .skillsContainer {
         flex-direction: row;
         align-items: center;
+    }
+
+    .skills {
+        justify-content: center;
     }
 }

@@ -7,7 +7,7 @@ function Footer() {
         <div className={s.footerBlock}>
             <div className={`${sContainer.container} ${s.footerContainer}`}>
                 <h2 className={s.title}>Andrey Tverdovskiy</h2>
-                <div className={s.footer}>
+                <div className={s.icons}>
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
                     <div className={s.icon}></div>
