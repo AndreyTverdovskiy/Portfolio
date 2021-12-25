@@ -1,0 +1,38 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.skill {
+  width: 250px;
+  background-color: $bgSecColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-color: #2b7faf;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.skillInfo {
+  padding: 25px 20px;
+
+  .skillTitle {
+    margin: 0 0 5px;
+    text-align: center;
+    @include text($titleFontFamily, 16px, 1.2);
+    letter-spacing: 1px;
+  }
+
+  .description {
+    @include text($textFontFamily, 12px, 1.8);
+    font-weight: 400;
+  }
+}
+

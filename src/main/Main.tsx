@@ -9,9 +9,9 @@ function Main() {
                 <div className={s.text}>
                     <span>Hi There</span>
                     <h1>I am Andrey Tverdovskiy</h1>
-                    <p>Frontend Developer</p>
+                    <p>Front-end Developer</p>
                 </div>
-                <div className={s.photo}></div>
+                <div className={s.photo}/>
             </div>
         </div>
     );
