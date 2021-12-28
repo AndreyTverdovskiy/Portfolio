@@ -1,0 +1,29 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+
+
+  .text {
+    width: 300px;
+    background-color: $bgSecColor;
+    color: $primaryColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-color: burlywood;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
