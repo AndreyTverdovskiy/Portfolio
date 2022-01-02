@@ -4,18 +4,16 @@
 .title {
   margin-bottom: 30px;
   position: relative;
-
-  @include text($titleFontFamily, 20px, 1.2);
-  font-weight: 300;
-  letter-spacing: 5px;
-
+  @include text($titleFontFamily, 25px, 1.2, 300);
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 5px;
 
   .h2 {
     margin: 0;
   }
 
-//line after title
+  //line after title
   &::after {
     content: '';
     position: absolute;

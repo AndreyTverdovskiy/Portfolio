@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './Projects.module.scss';
-import sContainer from '../common/styles/Container.module.css'
 import Project from './Project/Project';
 import Title from '../common/components/title/Title';
 import todoImage from '../assets/image/todolist.jpg'
@@ -18,7 +17,7 @@ function Projects() {
 
     return (
         <div className={s.projectsBlock}>
-            <div className={`${sContainer.container} ${s.projectsContainer}`}>
+            <div className={`${s.projectsContainer}`}>
                 <Title title={'My projects'}/>
                 <div className={s.projects}>
                     <Project title={'TodoList'}

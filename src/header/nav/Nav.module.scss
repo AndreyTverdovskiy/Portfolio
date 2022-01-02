@@ -1,0 +1,25 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.nav {
+  border: 1px solid crimson;
+
+  min-width: 300px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+
+  :hover {
+    color: white;
+    @include text($textFontFamily, 20px, 1.2, 400);
+    text-decoration: none;
+  }
+
+  .a {
+    color: $primaryColor;
+
+  }
+
+
+}

@@ -27,12 +27,12 @@
   .skillTitle {
     margin: 0 0 5px;
     text-align: center;
-    @include text($titleFontFamily, 16px, 1.2);
+    @include text($titleFontFamily, 16px, 1.2, 200);
     letter-spacing: 1px;
   }
 
   .description {
-    @include text($textFontFamily, 12px, 1.8);
+    @include text($textFontFamily, 12px, 1.8, 100);
     font-weight: 400;
   }
 }
