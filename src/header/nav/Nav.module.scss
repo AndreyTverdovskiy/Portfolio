@@ -2,23 +2,20 @@
 @import '../../common/styles/sass/mixins';
 
 .nav {
-  border: 1px solid crimson;
+  min-width: 400px;
+  @include flex(row, space-evenly, center, nowrap);
 
-  min-width: 300px;
+  letter-spacing: 1px;
+  @include text($textFontFamily, 20px, 1.2, 400);
 
-  display: flex;
-  justify-content: space-evenly;
-
-
-  :hover {
-    color: white;
-    @include text($textFontFamily, 20px, 1.2, 400);
+  .point {
     text-decoration: none;
-  }
+    color: $primaryColor; //$textColor;
 
-  .a {
-    color: $primaryColor;
-
+    &:hover {
+      color: $textColor;
+      text-decoration: underline $primaryColor 5px ;
+    }
   }
 
 

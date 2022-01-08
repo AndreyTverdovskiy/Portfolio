@@ -5,17 +5,16 @@
 .project {
   width: 450px;
   background-color: $bgSecColor;
-  display: flex;
-  flex-direction: column;
+  //display: flex;
+  //flex-direction: column;
+  @include flex(column, center, center, wrap);
 
   .image {
     height: 300px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(row, center, center, wrap);
     position: relative;
 
     &::before {

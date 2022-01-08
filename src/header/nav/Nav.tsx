@@ -4,11 +4,11 @@ import s from './Nav.module.scss';
 function Nav() {
     return (
         <div className={s.nav}>
-            <a href="">Main</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
-            </div>
+            <a className={s.point} href="#">Main</a>
+            <a className={s.point}  href="#">Skills</a>
+            <a className={s.point}  href="#">Projects</a>
+            <a className={s.point}  href="#">Contacts</a>
+        </div>
     );
 }
 

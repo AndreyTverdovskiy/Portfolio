@@ -2,7 +2,7 @@
 @import '../common/styles/sass/mixins';
 
 .footer {
-  //background-color: #7cdfff;
+  background-color: $bgSecColor;
   min-height: 300px;
   @include flex(row, center, stretch, nowrap);
 
@@ -14,13 +14,12 @@
     .icons {
       @include flex(row, space-between, center, nowrap);
       width: 400px;
-      margin-top: 30px;
+      margin-top: 20px;
       @media screen and (max-width: 505px) {
         width: 100%;
       }
 
       .icon {
-        background-color: #1515ab; //!!
         width: 60px;
         height: 60px;
         border: 1px solid #4a4a4a;

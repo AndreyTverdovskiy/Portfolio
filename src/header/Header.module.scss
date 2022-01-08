@@ -2,9 +2,11 @@
 @import '../common/styles/sass/mixins';
 
 .header {
-  height: 80px;
+  min-height: 80px;
   background-color: $bgSecColor;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  @include flex(row, flex-end, center, wrap);
+
+  @media screen and (max-width: 500px) {
+    @include flex(row, space-around, center, nowrap);
+  }
 }

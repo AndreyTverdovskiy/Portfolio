@@ -12,9 +12,9 @@
 
     .greeting {
       @include flex(column, flex-start, flex-start, nowrap);
+      @include text($titleFontFamily, 30px, 1.2, 700);
 
       span {
-        font-size: 16px;
 
         &:nth-child(2) {
           @include text($titleFontFamily, 50px, 1.2, 700);
@@ -64,18 +64,18 @@
         background-image: url('./../assets/image/me.jpg');
         background-position: center; //80% 0;
         @media screen and (max-width: 600px) {
-          height: 360px;
-          width: 260px;
+          height: 340px;
+          width: 240px;
           transition: .5s;
         }
 
         &:before {
           content: '';
           position: absolute;
-          height: 110%;
+          height: 108%;
           width: 105%;
           border: 2px solid $primaryColor;
-          left: 15px;
+          left: 10px;
           top: -15px;
           z-index: -1;
         }
